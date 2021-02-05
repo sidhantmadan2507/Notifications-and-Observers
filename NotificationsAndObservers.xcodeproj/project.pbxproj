@@ -13,6 +13,7 @@
 		42B1E9A025CC2C5C000F16DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B1E99E25CC2C5C000F16DD /* Main.storyboard */; };
 		42B1E9A225CC2C5E000F16DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B1E9A125CC2C5E000F16DD /* Assets.xcassets */; };
 		42B1E9A525CC2C5E000F16DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B1E9A325CC2C5E000F16DD /* LaunchScreen.storyboard */; };
+		42B1E9AE25CC2CF4000F16DD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1E9AD25CC2CF4000F16DD /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		42B1E9A125CC2C5E000F16DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42B1E9A425CC2C5E000F16DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42B1E9A625CC2C5E000F16DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B1E9AD25CC2CF4000F16DD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				42B1E9A125CC2C5E000F16DD /* Assets.xcassets */,
 				42B1E9A325CC2C5E000F16DD /* LaunchScreen.storyboard */,
 				42B1E9A625CC2C5E000F16DD /* Info.plist */,
+				42B1E9AD25CC2CF4000F16DD /* SecondViewController.swift */,
 			);
 			path = NotificationsAndObservers;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B1E9AE25CC2CF4000F16DD /* SecondViewController.swift in Sources */,
 				42B1E99D25CC2C5B000F16DD /* ViewController.swift in Sources */,
 				42B1E99925CC2C5B000F16DD /* AppDelegate.swift in Sources */,
 				42B1E99B25CC2C5B000F16DD /* SceneDelegate.swift in Sources */,
